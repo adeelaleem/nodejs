@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "bytecrosstnapp"
+        },
+        "hostingPlanName": {
+            "value": "nodeappsp"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "location": {
+            "value": "Canada Central"
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "serverFarmResourceGroup": {
+            "value": "RG-Node-App"
+        },
+        "skuCode": {
+            "value": "S1"
+        },
+        "subscriptionId": {
+            "value": "3c780e7a-8517-4cce-9efc-d3f6dc716c41"
+        }
+    }
+}
